@@ -279,7 +279,7 @@ if __name__ == "__main__":
     from data_loader import load_astram_data, compute_corridor_stats, compute_cascade_multiplier
 
     print("=" * 60)
-    print("PULSE — Training Pipeline")
+    print("PULSE Training Pipeline")
     print("=" * 60)
 
     df = load_astram_data()
@@ -294,4 +294,5 @@ if __name__ == "__main__":
     print(f"Cascade multiplier: {cascade_data['cascade_multiplier']}x")
 
     artifacts = train_model(df, corridor_stats, cascade_data)
-    print("\n✓ Training complete")
+    print("\nTraining complete")
+

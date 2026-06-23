@@ -10,19 +10,19 @@
     "positive_rate_val": 0.5036
   },
   "feature_importances": {
-    "hours_since_planned": 0.2267,
-    "hour": 0.1878,
-    "corridor_base_rate": 0.1721,
-    "day_of_week": 0.1307,
+    "hours_since_planned": 0.2266,
+    "hour": 0.1925,
+    "corridor_base_rate": 0.1729,
+    "day_of_week": 0.1292,
     "concurrent_incidents": 0.0819,
-    "corridor_encoded": 0.049,
-    "corridor_construction_pct": 0.0464,
-    "corridor_breakdown_pct": 0.0404,
-    "time_block": 0.0282,
+    "corridor_encoded": 0.0487,
+    "corridor_construction_pct": 0.0467,
+    "corridor_breakdown_pct": 0.0396,
+    "time_block": 0.0235,
     "has_active_construction": 0.0162,
-    "cascade_risk_score": 0.0108,
-    "is_weekend": 0.0091,
-    "active_planned_events": 0.0007
+    "cascade_risk_score": 0.0115,
+    "is_weekend": 0.0107,
+    "active_planned_events": 0.0001
   },
   "corridor_stats": {
     "Tumkur Road": {

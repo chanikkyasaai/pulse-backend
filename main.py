@@ -63,6 +63,8 @@ def get_model():
             last_retrain_time = datetime.now().isoformat()
         except FileNotFoundError:
             raise HTTPException(status_code=503, detail="Model not trained yet. Run ml/train.py first.")
+        except Exception as e:
+            raise HTTPException(status_code=503, detail=f"Model unavailable: {str(e)}")
     return model_artifacts
 
 
