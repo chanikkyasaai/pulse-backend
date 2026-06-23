@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 from datetime import datetime, timedelta
 
-MODEL_DIR = Path(__file__).parent.parent / "backend" / "models"
+MODEL_DIR = Path(__file__).parent.parent / "models"
 
 
 def load_model():

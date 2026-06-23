@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 from data_loader import load_astram_data, compute_corridor_stats, compute_cascade_multiplier
 
-MODEL_DIR = Path(__file__).parent.parent / "backend" / "models"
+MODEL_DIR = Path(__file__).parent.parent / "models"
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 
